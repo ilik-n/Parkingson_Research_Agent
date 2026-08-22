@@ -1,0 +1,54 @@
+# Weekly Parkinson's Advances feed update.
+#
+# NOTE before first real run: this uses anthropics/claude-code-action@v1, whose exact `with:`
+# inputs have changed across versions — verify against the action's current README
+# (https://github.com/anthropics/claude-code-action) before relying on this, and do one manual
+# workflow_dispatch run to confirm before trusting the cron schedule.
+#
+# Also note: purely schedule-triggered runs of this action have a known issue where default
+# OIDC auth fails with "user does not have write access" (see
+# https://github.com/anthropics/claude-code-action/issues/814). Authenticating with an explicit
+# ANTHROPIC_API_KEY secret (as below), rather than relying on default OIDC, avoids that.
+
+name: Weekly Parkinson's feed update
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # Mondays 13:00 UTC — tune once the real cadence (plan.md §6) is proven
+  workflow_dispatch: {} # manual on-demand override, per plan.md §6
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate the feed is well-formed before touching it
+        run: python update_feed.py validate
+
+      - name: Retire entries older than the retention window
+        run: python update_feed.py retire
+
+      - name: Commit retirement changes directly (deterministic, no review needed)
+        run: |
+          if ! git diff --quiet -- data/updates.json; then
+            git config user.name "parkinsons-feed-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/updates.json
+            git commit -m "Retire entries past the retention window"
+            git push
+          fi
+
+      - name: Research + draft new entries, open a PR for review
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt_file: .github/workflows/update-feed-prompt.md

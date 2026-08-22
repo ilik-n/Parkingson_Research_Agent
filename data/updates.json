@@ -1,0 +1,86 @@
+[
+  {
+    "id": "5ba6bf84ecb481d16f3490d0752334114648b030",
+    "title": "Large UK Biobank study links early depression symptoms to higher Parkinson's risk",
+    "category": "Research",
+    "summary": "A study of nearly 452,000 UK Biobank participants found that people with early depressive symptoms had a 36% higher risk of later developing Parkinson's disease. Fat-related metabolic changes may partly explain the link, and the association appeared stronger in people with existing genetic susceptibility. The findings point to depression as a possible early marker rather than a cause.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/large-study-links-early-depression-symptoms-higher-parkinsons-risk/",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-21",
+    "date_added": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "d07a68b833d9df62ac969f76ab8852a30df93fa6",
+    "title": "FDA clears Empatica wearable platform for continuous Parkinson's symptom monitoring",
+    "category": "Technology",
+    "summary": "The FDA granted 510(k) clearance to Empatica's Health Monitoring Platform for Parkinson's disease, which uses wrist-worn sensors, a patient app, and a clinician portal to track bradykinesia, dyskinesia, tremor, sleep quality, and medication compliance over time. It's the company's twelfth FDA clearance and builds on its 2025 acquisition of PKG Health's symptom-tracking algorithms.",
+    "source_name": "Hospital Management",
+    "source_url": "https://www.hospitalmanagement.net/news/fda-clears-empaticas-parkinsons-monitoring/",
+    "source_type": "news report",
+    "date_published": "2026-08-20",
+    "date_added": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "14ec49220759bee3e7192f9e351a35ecc6fbfb79",
+    "title": "Developer raises $36M to help fund Phase 3 trial of app-paired levodopa treatment",
+    "category": "Clinical Trial",
+    "summary": "Remepy raised $36 million in financing that will partly fund a Phase 3 trial of Hybridopa, which pairs standard levodopa medication with an AI-driven mobile app (DopApp) offering cognitive training and rehabilitation support. This account is based on a company funding announcement, not a peer-reviewed result, though it references an earlier published pilot study.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/developer-raises-36m-partly-funding-late-stage-parkinsons-clinical-trial/",
+    "source_type": "press release",
+    "date_published": "2026-08-19",
+    "date_added": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "4227a1f6d0b8611c8e875b4aa4aae2edfb4edbfb",
+    "title": "More physical activity linked to slower motor and cognitive decline in Parkinson's",
+    "category": "Treatment",
+    "summary": "A longitudinal analysis using data from the Parkinson's Progression Markers Initiative found that people with higher physical activity levels showed slower decline in rigidity, axial motor symptoms, and cognitive measures. Notably, the protective association wasn't explained by better preservation of dopamine transporter levels, suggesting activity may help through other brain mechanisms beyond dopamine protection.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/staying-active-may-help-slow-parkinsons-motor-cognitive-changes/",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-18",
+    "date_added": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "274fbfa842cbadd37ca21337e080eb0fd62d82fa",
+    "title": "Why Parkinson's and Alzheimer's may be more biologically connected than once thought",
+    "category": "Research",
+    "summary": "MJFF Chief Scientist Mark Frasier discusses growing evidence that Parkinson's and Alzheimer's overlap more than previously recognized, with an estimated 30-50% of Alzheimer's patients also showing Parkinson's-associated markers like alpha-synuclein alongside amyloid or tau. New biomarker tools now let researchers detect these overlapping pathologies in living patients, which could open the door to more personalized treatment approaches instead of treating the diseases as fully separate.",
+    "source_name": "Michael J. Fox Foundation",
+    "source_url": "https://www.michaeljfox.org/news/why-parkinsons-and-alzheimers-are-more-connected-we-once-thought",
+    "source_type": "news report",
+    "date_published": "2026-08-14",
+    "date_added": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "9cb3bd2d437ed9515c8b86add8e3b5834c86a7b0",
+    "title": "Phase II trial of GBA1-targeted drug pariceract discontinued after no benefit shown",
+    "category": "Clinical Trial",
+    "summary": "Bial's Phase II trial of BIA 28-6156 (pariceract), a precision-medicine drug targeting GBA1-related Parkinson's disease, found no safety concerns but also no difference in disease progression compared with the control group. The company has discontinued further development of the drug. It's a reminder that precision-medicine approaches don't automatically translate into clinical benefit, even when the underlying biological rationale is sound.",
+    "source_name": "Michael J. Fox Foundation",
+    "source_url": "https://www.michaeljfox.org/news/news-context-clinical-trial-results-therapy-Bial-ACTIVATE-gba1-parkinsons",
+    "source_type": "news report",
+    "date_published": "2026-06-10",
+    "date_added": "2026-08-22",
+    "status": "active"
+  },
+  {
+    "id": "a09e4100b85b42e37eb10eee2f3da677a005b539",
+    "title": "MJFF outlines 2026 federal and state policy priorities for Parkinson's",
+    "category": "Policy",
+    "summary": "The Michael J. Fox Foundation laid out its 2026 policy agenda, including a push for federal NIH Parkinson's research funding to reach $600 million annually by fiscal year 2028, continued state-level research investment, tighter restrictions on environmental toxins such as paraquat, and full implementation of the National Parkinson's Project. The Foundation is mobilizing its advocate network to press these priorities with policymakers.",
+    "source_name": "Michael J. Fox Foundation",
+    "source_url": "https://www.michaeljfox.org/news/public-policy-and-parkinsons-disease-our-2026-priorities-federal-and-state-governments",
+    "source_type": "press release",
+    "date_published": "2026-02-09",
+    "date_added": "2026-08-22",
+    "status": "archived"
+  }
+]

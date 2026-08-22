@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parkinson's Advances</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Parkinson's Advances</h1>
+      <p class="tagline">A periodically-updated feed of Parkinson's disease research, treatment, and clinical trial news.</p>
+      <p class="last-updated" id="last-updated"></p>
+    </div>
+  </header>
+
+  <main class="feed-container">
+    <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter by category">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="Research">Research</button>
+      <button class="filter-btn" data-category="Treatment">Treatment</button>
+      <button class="filter-btn" data-category="Clinical Trial">Clinical Trial</button>
+      <button class="filter-btn" data-category="Technology">Technology</button>
+      <button class="filter-btn" data-category="Policy">Policy</button>
+    </div>
+
+    <div class="feed" id="feed" aria-live="polite">
+      <p class="loading">Loading updates…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      This page is a curated summary feed for general information only. It is not a diagnosis
+      tool and does not provide medical advice — always consult a qualified healthcare provider
+      about your own care.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
