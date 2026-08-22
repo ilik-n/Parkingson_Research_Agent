@@ -42,6 +42,19 @@ utilities) + `.github/workflows/update.yml` (weekly cron via `anthropics/claude-
 plus manual `workflow_dispatch` for on-demand runs) + `.github/workflows/update-feed-prompt.md`
 (the agent's instructions — sources, schema, guardrails, PR steps).
 
+**Auth (resolved):** the workflow authenticates with a Claude Pro subscription OAuth token
+(`claude setup-token` → `CLAUDE_CODE_OAUTH_TOKEN` repo secret), not a paid Anthropic API key —
+no separate API budget needed. A Google API key was also available and considered (a Gemini-based
+script instead of Claude Code Action), but rejected in favor of staying on the already-built
+agent design, which follows the editorial guardrails via its own judgment rather than a scripted
+prompt. Tradeoff accepted: Pro/Max OAuth tokens for GitHub Actions have open upstream issues
+around expiry/refresh — this isn't fully zero-maintenance; if the weekly run starts failing on
+auth, re-running `claude setup-token` and updating the secret is the first thing to check.
+
+**Hosting cost note:** the GitHub repo is public, so GitHub Actions minutes are free/unlimited
+there — no need to route any of this through Firebase Cloud Functions (which was considered,
+given limited Firebase allocation, but adds a second cloud provider for no benefit here).
+
 **Decision (resolved):** scheduled Claude Code agent (weekly cron) drafts into staging;
 approval is a manual step before publish. Fully unattended auto-publish was considered and
 rejected — for health-adjacent content, the review step is worth the loss of "hands-off."
