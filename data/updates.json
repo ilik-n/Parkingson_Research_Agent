@@ -82,5 +82,41 @@
     "date_published": "2026-02-09",
     "date_added": "2026-08-22",
     "status": "archived"
+  },
+  {
+    "title": "Researchers map a brain-signal \"cascade\" behind Parkinson's motor symptoms",
+    "category": "Research",
+    "summary": "In a study of 23 people with Parkinson's disease undergoing deep brain stimulation surgery, researchers recorded brain signals from the motor cortex and a deep brain structure called the globus pallidus. They found that bursts of a particular brain-wave pattern in the cortex trigger a cascade that amplifies related activity deeper in the brain, a pattern linked to worsened motor symptoms. Dopamine medication reduced this cascade and improved symptoms, offering a more detailed picture of how these signals contribute to Parkinson's motor problems.",
+    "source_name": "Cell Reports Medicine",
+    "source_url": "https://doi.org/10.1016/j.xcrm.2026.103001",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-21",
+    "date_added": "2026-08-23",
+    "status": "active",
+    "id": "ebe07db3f0c592d579954cad3cc43d67442f7ffd"
+  },
+  {
+    "title": "Study finds diverging links between diabetes, metformin, and Parkinson's risk",
+    "category": "Research",
+    "summary": "A genetic and epidemiological study examined whether type 2 diabetes and the diabetes drug metformin affect Parkinson's disease risk. Using Mendelian randomization alongside a national patient cohort and an FDA adverse-event database, the researchers found type 2 diabetes was linked to lower Parkinson's risk in one analysis, while metformin use was consistently associated with higher risk of parkinsonism. The authors describe this as opposing effects of diabetes and metformin on Parkinson's risk, and suggest clinicians watch for neurological symptoms in patients taking metformin.",
+    "source_name": "Neurological Sciences",
+    "source_url": "https://doi.org/10.1007/s10072-026-09337-1",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-21",
+    "date_added": "2026-08-23",
+    "status": "active",
+    "id": "c574b69da022e6b2ab3ea63c21e2c58a694dfc20"
+  },
+  {
+    "title": "Small study finds visual-feedback training may improve balance in Parkinson's",
+    "category": "Treatment",
+    "summary": "In a small study of 21 people with early-to-moderate Parkinson's disease, researchers tested whether adding visual-feedback balance training to standard physical therapy improved mobility. After four weeks of combined treatment using a balance-training platform, participants showed improved balance, walking speed, and functional independence, with benefits still present six months later. Because the study didn't include a comparison group and enrolled few participants, the authors say larger controlled trials are needed before drawing firm conclusions.",
+    "source_name": "NeuroRehabilitation",
+    "source_url": "https://doi.org/10.1177/10538135261473286",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-21",
+    "date_added": "2026-08-23",
+    "status": "active",
+    "id": "99b8c63f4554894f4a2ba189a7ed5db88b718f39"
   }
 ]
