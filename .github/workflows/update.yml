@@ -77,5 +77,5 @@ jobs:
           # update-feed-prompt.md is the safety guardrail here, not tool restriction — so this
           # allowlist covers exactly what that prompt's steps 1-7 need, nothing broader.
           claude_args: |
-            --allowedTools "WebFetch,WebSearch,Bash(python update_feed.py add:*),Bash(python update_feed.py validate:*),Bash(git checkout:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(git status:*),Bash(git diff:*),Bash(gh pr create:*)"
+            --allowedTools "WebFetch,WebSearch,Write,Bash(python update_feed.py add:*),Bash(python update_feed.py validate:*),Bash(git checkout:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(git status:*),Bash(git diff:*),Bash(gh pr create:*)"
           show_full_output: true # first real run hid all agent turns; keep this on while bringing the pipeline up
