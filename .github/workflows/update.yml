@@ -70,3 +70,12 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: ${{ steps.load_prompt.outputs.prompt }}
+          # Bash/WebFetch/WebSearch are denied by default (see claude-code-action docs) — without
+          # this, the agent can't reach the curated sources or run update_feed.py, and silently
+          # concludes there's nothing new instead of actually researching (confirmed by the first
+          # real run: 8/8 permission denials, zero PR, in ~1 minute). The PR-review gate in
+          # update-feed-prompt.md is the safety guardrail here, not tool restriction — so this
+          # allowlist covers exactly what that prompt's steps 1-7 need, nothing broader.
+          claude_args: |
+            --allowedTools "WebFetch,WebSearch,Bash(python update_feed.py add:*),Bash(python update_feed.py validate:*),Bash(git checkout:*),Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(git status:*),Bash(git diff:*),Bash(gh pr create:*)"
+          show_full_output: true # first real run hid all agent turns; keep this on while bringing the pipeline up
