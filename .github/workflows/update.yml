@@ -28,6 +28,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  id-token: write # required for claude-code-action@v1 to fetch its GitHub OIDC token
 
 jobs:
   draft-updates:
@@ -55,8 +56,17 @@ jobs:
             git push
           fi
 
+      - name: Load agent instructions
+        id: load_prompt
+        run: |
+          {
+            echo 'prompt<<PROMPT_EOF'
+            cat .github/workflows/update-feed-prompt.md
+            echo 'PROMPT_EOF'
+          } >> "$GITHUB_OUTPUT"
+
       - name: Research + draft new entries, open a PR for review
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          prompt_file: .github/workflows/update-feed-prompt.md
+          prompt: ${{ steps.load_prompt.outputs.prompt }}
