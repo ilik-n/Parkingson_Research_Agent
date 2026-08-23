@@ -79,6 +79,26 @@ body {
   padding: 1.5rem 1.25rem 3rem;
 }
 
+.search-bar {
+  margin-bottom: 0.75rem;
+}
+
+.search-input {
+  width: 100%;
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
@@ -188,6 +208,35 @@ body {
 
 .card-meta a {
   color: var(--link);
+}
+
+.load-more-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.load-more-btn {
+  font: inherit;
+  font-size: 0.88rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.feed-end {
+  color: var(--text-muted);
+  font-size: 0.8rem;
 }
 
 .site-footer {

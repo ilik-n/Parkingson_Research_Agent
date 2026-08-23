@@ -16,6 +16,16 @@
   </header>
 
   <main class="feed-container">
+    <div class="search-bar">
+      <input
+        type="search"
+        id="search-input"
+        class="search-input"
+        placeholder="Search past updates…"
+        aria-label="Search past updates, including archived ones"
+      />
+    </div>
+
     <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter by category">
       <button class="filter-btn active" data-category="all">All</button>
       <button class="filter-btn" data-category="Research">Research</button>
@@ -27,6 +37,11 @@
 
     <div class="feed" id="feed" aria-live="polite">
       <p class="loading">Loading updates…</p>
+    </div>
+
+    <div class="load-more-row">
+      <button class="load-more-btn" id="load-more-btn" hidden>Load more</button>
+      <p class="feed-end" id="feed-end" hidden>You've reached the end — updates older than a year are retired from the feed.</p>
     </div>
   </main>
 

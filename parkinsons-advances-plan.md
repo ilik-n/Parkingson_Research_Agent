@@ -136,22 +136,28 @@ cadence only affects how often drafts appear for review, not what gets published
 
 ## 7. Feed size / retention — soft retirement
 
-- Retirement is **age-based, not count-based**: an entry older than ~6 months (🔧 tune this
-  number once you see real volume) flips from `"status": "active"` to `"archived"`. Pure
-  count-based retention (\"keep newest 30–50\") was rejected — it's fragile in both directions: a
-  quiet stretch pushes out still-relevant recent items just because few new ones arrived, and a
-  sudden burst leaves stale items sitting well past when they should've rotated out.
-- A count cap (~30–50 *visible* items) still applies as a display default in `script.js`, but
-  purely as a "don't render an infinite page" limit, not as the retirement trigger itself.
-- Archived entries stay in `updates.json` (see §4) — nothing is ever deleted. Whether the site
-  exposes an actual "history/archive" view is still open (see §10); until then, archived items
-  just don't render in the default feed.
+- Retirement is **age-based, not count-based**: an entry older than **1 year**
+  (`RETIREMENT_AGE_DAYS = 365`, tuned up from an initial 6-month default once the feed had real
+  entries) flips from `"status": "active"` to `"archived"`. Pure count-based retention ("keep
+  newest 30–50") was rejected — it's fragile in both directions: a quiet stretch pushes out
+  still-relevant recent items just because few new ones arrived, and a sudden burst leaves stale
+  items sitting well past when they should've rotated out.
+- **Decision (resolved):** no separate display cap — `script.js` paginates the active set with a
+  "Load more" button (12 at a time) instead of either rendering everything at once or hard-capping
+  what's reachable. This replaces the earlier "~30–50 visible items" placeholder.
+- Archived entries stay in `updates.json` (see §4) — nothing is ever deleted. The **search box**
+  (see §8) is the archive view: searching reveals matching archived entries regardless of the
+  1-year cutoff; the default (no search) feed is active-only. See §10.
 
 ## 8. Page design (kept simple)
 
 - Card-based feed, newest first
 - Category shown as a small colored badge, not a wall of text
 - Client-side filter by category (no reload needed — just JS array filtering)
+- Client-side **search box** over title/summary/source name — active entries only by default;
+  typing a query also searches archived (>1 year) entries, serving as the archive view (§7, §10)
+- **"Load more"** button below the feed, 12 entries per page, instead of rendering everything or
+  hard-capping what's reachable
 - "Last updated: [date]" shown near the top, pulled from the newest `date_added`
 - Small, honest disclaimer in the footer: this is a curated summary feed, not medical advice
 - Mobile-responsive, plain typography, no dependency on external UI frameworks
@@ -173,5 +179,8 @@ cadence only affects how often drafts appear for review, not what gets published
   releases entirely?
 - Any specific sub-topics to prioritize (e.g., deep brain stimulation, gene therapy, wearables)
   or keep it broad?
-- Is a visible "archive/history" page worth building now, or fine to defer until archived items
-  actually pile up?
+- ~~Is a visible "archive/history" page worth building now~~ — **resolved**: the search box
+  doubles as the archive view (§7, §8) instead of a separate page.
+- Email digest signup — under research as of 2026-08-23; see conversation/commit history for the
+  options considered (ESP + RSS-to-email vs. custom backend) and why per-trial-level subscriptions
+  need a schema change (a `trial_id` field) that per-category subscriptions don't.

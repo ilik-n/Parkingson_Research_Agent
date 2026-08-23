@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 UPDATES_PATH = ROOT / "data" / "updates.json"
 
-RETIREMENT_AGE_DAYS = 183  # ~6 months — see plan.md §7; tune once real volume is visible
+RETIREMENT_AGE_DAYS = 365  # 1 year — see plan.md §7; tune once real volume is visible
 
 ALLOWED_CATEGORIES = {"Research", "Treatment", "Clinical Trial", "Technology", "Policy"}
 ALLOWED_SOURCE_TYPES = {"peer-reviewed", "news report", "press release", "preprint"}
