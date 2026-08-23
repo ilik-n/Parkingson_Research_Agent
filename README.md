@@ -58,6 +58,12 @@ python update_feed.py retire     # archive entries older than a year
 python update_feed.py add drafts.json   # validate + dedupe + append a JSON array of new entries
 ```
 
+## Email digest (optional, not deployed yet)
+
+There's a signup form on the site for an email digest, by category. It's built but inert until
+deployed — see [`email/README.md`](email/README.md) for the runbook (a Cloudflare Worker + D1
+for storage, Resend for sending, both free at this project's scale).
+
 ## One-time setup for the scheduled agent
 
 The weekly workflow authenticates with a Claude Pro/Max subscription (OAuth token), not a paid

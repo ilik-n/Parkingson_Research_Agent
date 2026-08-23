@@ -1,0 +1,29 @@
+# Notify the email digest Worker whenever data/updates.json changes on main — i.e. whenever a
+# feed-update PR merges, or the weekly retire step commits directly. See email/README.md for
+# what deploys this Worker and sets the two secrets this step needs; until DIGEST_WORKER_URL is
+# set, this job is a harmless no-op (skipped).
+
+name: Notify email digest on feed publish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/updates.json
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger digest send
+        run: |
+          if [ -z "$WORKER_URL" ]; then
+            echo "DIGEST_WORKER_URL secret not set yet — email digest isn't deployed (see email/README.md). Skipping."
+            exit 0
+          fi
+          curl -sf -X POST "$WORKER_URL/send-digest" \
+            -H "X-Digest-Secret: $DIGEST_SECRET" \
+            -H "Content-Type: application/json"
+        env:
+          WORKER_URL: ${{ secrets.DIGEST_WORKER_URL }}
+          DIGEST_SECRET: ${{ secrets.DIGEST_SECRET }}

@@ -69,10 +69,14 @@ parkinsons-advances/
 ├── data/
 │   └── updates.json                    # the actual feed content (active + archived) — source of truth
 ├── update_feed.py                       # validate / dedupe+add / retire — mechanical utilities, no drafting logic
+├── email/                              # optional email digest add-on — see email/README.md
+│   ├── README.md                        # deploy runbook (Cloudflare Worker + D1 + Resend)
+│   └── worker/                          # signup/confirm/unsubscribe/send-digest Worker source
 └── .github/
     └── workflows/
         ├── update.yml                    # weekly cron (+ manual on-demand) — runs the agent, opens a PR
-        └── update-feed-prompt.md          # agent instructions: sources, schema, editorial guardrails
+        ├── update-feed-prompt.md          # agent instructions: sources, schema, editorial guardrails
+        └── send-digest.yml                # pushes to data/updates.json -> notify the digest Worker
 ```
 
 Drafting itself (searching sources, writing summaries) is done by the Claude agent at run time,
@@ -181,6 +185,14 @@ cadence only affects how often drafts appear for review, not what gets published
   or keep it broad?
 - ~~Is a visible "archive/history" page worth building now~~ — **resolved**: the search box
   doubles as the archive view (§7, §8) instead of a separate page.
-- Email digest signup — under research as of 2026-08-23; see conversation/commit history for the
-  options considered (ESP + RSS-to-email vs. custom backend) and why per-trial-level subscriptions
-  need a schema change (a `trial_id` field) that per-category subscriptions don't.
+- **Decision (resolved 2026-08-23):** email digest signup, by category — a Cloudflare Worker +
+  D1 (subscribers, double opt-in, unsubscribe tokens) + Resend (sending), triggered by a new
+  `send-digest.yml` workflow on every push to `main` that touches `data/updates.json`. Chosen
+  over an ESP like Buttondown because per-category segmentation is a paid add-on there ($9–18+/mo)
+  while this stays within free tiers at this project's scale — consistent with the GitHub
+  Actions-over-Firebase call in §2. Code lives in `email/`; **not deployed yet** — see
+  `email/README.md` for the runbook, which (same reasoning as the `claude setup-token` OAuth flow
+  in §2) the account owner runs themselves rather than handing API keys to an agent.
+  Per-trial-level subscriptions (vs. per-category) remain out of scope: entries don't carry a
+  stable identifier tying multiple future updates about the *same* trial together, so that needs
+  a `trial_id` schema addition first, independent of the email plumbing itself.

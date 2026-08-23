@@ -43,6 +43,35 @@
       <button class="load-more-btn" id="load-more-btn" hidden>Load more</button>
       <p class="feed-end" id="feed-end" hidden>You've reached the end — updates older than a year are retired from the feed.</p>
     </div>
+
+    <section class="subscribe-section" aria-labelledby="subscribe-heading">
+      <h2 id="subscribe-heading">Get updates by email</h2>
+      <p class="subscribe-note">
+        Sent whenever new items are published. Pick specific categories, or leave them all
+        unchecked for everything.
+      </p>
+      <form id="subscribe-form" class="subscribe-form">
+        <div class="subscribe-categories" role="group" aria-label="Categories to receive">
+          <label><input type="checkbox" name="category" value="Research" /> Research</label>
+          <label><input type="checkbox" name="category" value="Treatment" /> Treatment</label>
+          <label><input type="checkbox" name="category" value="Clinical Trial" /> Clinical Trial</label>
+          <label><input type="checkbox" name="category" value="Technology" /> Technology</label>
+          <label><input type="checkbox" name="category" value="Policy" /> Policy</label>
+        </div>
+        <div class="subscribe-row">
+          <input
+            type="email"
+            id="subscribe-email"
+            name="email"
+            placeholder="you@example.com"
+            required
+            aria-label="Email address"
+          />
+          <button type="submit">Subscribe</button>
+        </div>
+        <p class="subscribe-status" id="subscribe-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
   </main>
 
   <footer class="site-footer">

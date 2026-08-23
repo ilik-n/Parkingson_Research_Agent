@@ -1,5 +1,9 @@
 const DATA_URL = "data/updates.json";
 
+// Set by email/README.md step 7 after the Cloudflare Worker is deployed. Until then the signup
+// form below disables itself instead of silently failing.
+const SUBSCRIBE_API_BASE = "REPLACE_AFTER_FIRST_DEPLOY";
+
 const SOURCE_TYPE_LABELS = {
   "peer-reviewed": "Peer-reviewed study",
   "news report": "News report",
@@ -129,10 +133,52 @@ function setupLoadMore() {
   });
 }
 
+function setupSubscribeForm() {
+  const form = document.getElementById("subscribe-form");
+  const status = document.getElementById("subscribe-status");
+  const submitBtn = form.querySelector("button[type=submit]");
+  const emailInput = document.getElementById("subscribe-email");
+
+  if (!SUBSCRIBE_API_BASE || SUBSCRIBE_API_BASE.startsWith("REPLACE_")) {
+    status.textContent = "Email signup isn't set up yet — check back soon.";
+    submitBtn.disabled = true;
+    emailInput.disabled = true;
+    return;
+  }
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const email = emailInput.value.trim();
+    const categories = Array.from(form.querySelectorAll('input[name="category"]:checked')).map(
+      (el) => el.value
+    );
+
+    submitBtn.disabled = true;
+    status.textContent = "Submitting…";
+    try {
+      const res = await fetch(`${SUBSCRIBE_API_BASE}/subscribe`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, categories }),
+      });
+      const data = await res.json().catch(() => ({}));
+      status.textContent = res.ok
+        ? data.message || "Check your inbox to confirm."
+        : data.error || "Something went wrong — try again.";
+      if (res.ok) form.reset();
+    } catch {
+      status.textContent = "Couldn't reach the signup service — try again later.";
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+}
+
 async function init() {
   setupFilters();
   setupSearch();
   setupLoadMore();
+  setupSubscribeForm();
   try {
     const res = await fetch(DATA_URL);
     if (!res.ok) throw new Error(`Failed to load ${DATA_URL}: ${res.status}`);
