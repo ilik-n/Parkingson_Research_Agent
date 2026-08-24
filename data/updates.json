@@ -118,5 +118,77 @@
     "date_added": "2026-08-23",
     "status": "active",
     "id": "99b8c63f4554894f4a2ba189a7ed5db88b718f39"
+  },
+  {
+    "title": "Major Parkinson's organizations submit joint priorities for first National Plan to End Parkinson's",
+    "category": "Policy",
+    "summary": "The American Parkinson Disease Association, the Michael J. Fox Foundation, and the Parkinson's Foundation submitted joint recommendations to the NIH ahead of an Advisory Council meeting on the first National Plan to End Parkinson's. The recommendations outline six priorities to pursue by 2035, including reducing financial burden on patients and families, preventing disease and slowing progression, and researching environmental triggers such as the herbicide paraquat. The submission follows a public comment period that closed August 22, 2026.",
+    "source_name": "Parkinson's Foundation",
+    "source_url": "https://www.parkinson.org/about-us/news/outline-priorities-for-national-plan",
+    "source_type": "press release",
+    "date_published": "2026-08-24",
+    "id": "a89d0bb74f43eed1149979ef90b9060d6e6263b7",
+    "status": "active",
+    "date_added": "2026-08-24"
+  },
+  {
+    "title": "Starting rehabilitation therapy early after Parkinson's diagnosis linked to longer survival",
+    "category": "Treatment",
+    "summary": "A South Korean nationwide cohort study followed 19,153 people with Parkinson's disease for up to 15 years and compared survival based on when they began rehabilitation therapy after diagnosis. People who waited one to two years to start had a 28% higher risk of death, and those who waited two or more years had a 44% higher risk, compared with people who began within the first year. The association held regardless of disability severity at diagnosis. As an observational study, it shows a link rather than proof that early rehab itself extends life.",
+    "source_name": "npj Parkinson's Disease",
+    "source_url": "https://doi.org/10.1038/s41531-026-01495-5",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-24",
+    "id": "38db825e2977a333963b4453fd8990a3df0260e1",
+    "status": "active",
+    "date_added": "2026-08-24"
+  },
+  {
+    "title": "Blood markers of brain injury, combined with air pollution exposure, linked to Parkinson's and dementia risk",
+    "category": "Research",
+    "summary": "A study of nearly 19,645 UK Biobank participants over age 50 examined two blood proteins that signal brain-cell damage, neurofilament light and GFAP, alongside air pollution exposure. Higher neurofilament light levels were associated with greater risk of later developing Parkinson's disease or dementia, or of dying during follow-up, and fine-particulate air pollution appeared to strengthen that link. GFAP was more specifically tied to dementia risk. The findings are associational, not proof that pollution or these proteins cause neurodegeneration, but suggest blood tests could eventually help flag people at higher risk.",
+    "source_name": "Ecotoxicology and Environmental Safety",
+    "source_url": "https://doi.org/10.1016/j.ecoenv.2026.120657",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-22",
+    "id": "44887731ee8084e9beee166b2bc92ecb3e8a473b",
+    "status": "active",
+    "date_added": "2026-08-24"
+  },
+  {
+    "title": "Non-invasive nerve stimulation improves bladder test results in Parkinson's, but not always how patients feel",
+    "category": "Treatment",
+    "summary": "A meta-analysis pooling seven studies and 591 people with Parkinson's disease examined non-invasive tibial nerve stimulation, a mild electrical pulse delivered near the ankle, as a treatment for urinary symptoms. The therapy measurably improved bladder capacity and control on lab measurements, but patients didn't consistently report less urgency, frequency, or nighttime urination. The mismatch suggests the treatment may help physiologically without necessarily being felt as symptom relief, and the authors call for further study of real-world outcomes.",
+    "source_name": "Acta Neurologica Belgica",
+    "source_url": "https://doi.org/10.1007/s13760-026-03163-0",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-22",
+    "id": "ea04bc425cf3ce53315ce7b1271a2f22db4bef45",
+    "status": "active",
+    "date_added": "2026-08-24"
+  },
+  {
+    "title": "Small study finds standard canes may slow walking speed in Parkinson's despite patient satisfaction",
+    "category": "Treatment",
+    "summary": "In a secondary analysis of 50 people with Parkinson's disease, researchers compared walking with and without a standard cane. Cane use was associated with about 0.25 meters per second slower walking speed and smaller steps, a clinically meaningful decline, yet most participants reported no reduction in fear of falling and said they were satisfied with the cane. Because the study was small and not a full randomized trial, the authors say the mismatch between measured effect and patient experience is worth discussing with clinicians rather than treated as settled.",
+    "source_name": "Disability and Rehabilitation",
+    "source_url": "https://doi.org/10.1080/09638288.2026.2721574",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-23",
+    "id": "2ce0b67ded4a926970e702cef6cce5b7d6c3ffc9",
+    "status": "active",
+    "date_added": "2026-08-24"
+  },
+  {
+    "title": "Diabetes drugs called GLP-1 agonists linked to lower dementia risk, weaker signal for Parkinson's",
+    "category": "Research",
+    "summary": "A real-world study matched 46,962 people with obesity and type 2 diabetes to compare outcomes for those started on GLP-1 receptor agonists, a drug class that includes Ozempic-type medications, against other diabetes drugs. GLP-1 users had a lower rate of dementia (4.8% versus 7.8%). For Parkinson's disease specifically, the main comparison showed a similar downward trend that was not statistically significant, though a narrower comparison against one other drug class did find a significant reduction. The dementia-protective signal looks fairly solid; the Parkinson's-specific signal is suggestive but weaker and shouldn't be reported as confirmed.",
+    "source_name": "European Journal of Internal Medicine",
+    "source_url": "https://doi.org/10.1016/j.ejim.2026.107164",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-21",
+    "id": "58e2384ae799bbe952b2006360d1e33ef08baee0",
+    "status": "active",
+    "date_added": "2026-08-24"
   }
 ]
