@@ -118,5 +118,53 @@
     "date_added": "2026-08-23",
     "status": "active",
     "id": "99b8c63f4554894f4a2ba189a7ed5db88b718f39"
+  },
+  {
+    "title": "Three major Parkinson's nonprofits lay out priorities for the federal National Plan",
+    "category": "Policy",
+    "summary": "The American Parkinson Disease Association, the Michael J. Fox Foundation, and the Parkinson's Foundation jointly outlined six priorities they want reflected in the federal National Plan to End Parkinson's by 2035, including affordable care access, timely diagnosis, research into environmental risk factors, and increased federal research funding. The statement was timed to the second meeting of the federal Advisory Council on Parkinson's Research, Care, and Services, held August 24, 2026, and follows the groups' formal recommendations submitted to an NIH request for public input that closed August 22.",
+    "source_name": "Parkinson's Foundation",
+    "source_url": "https://www.parkinson.org/about-us/news/outline-priorities-for-national-plan",
+    "source_type": "press release",
+    "date_published": "2026-08-24",
+    "date_added": "2026-08-31",
+    "status": "active",
+    "id": "a89d0bb74f43eed1149979ef90b9060d6e6263b7"
+  },
+  {
+    "title": "Study links smell loss to different brain changes depending on cognitive status in Parkinson's",
+    "category": "Research",
+    "summary": "In a study of 74 people spanning cognitively normal individuals, those with mild cognitive impairment, and people with Parkinson's disease, researchers compared smell-identification scores against cortical thickness on brain scans. In cognitively normal participants, better smell scores tracked with thicker cortex in a handful of brain regions, but that relationship reversed in participants with cognitive impairment, suggesting smell loss may relate to brain structure differently depending on a person's cognitive stage.",
+    "source_name": "Journal of the Neurological Sciences",
+    "source_url": "https://doi.org/10.1016/j.jns.2026.126151",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-22",
+    "date_added": "2026-08-31",
+    "status": "active",
+    "id": "3def75662bac78eb210c2cfb1a58019bfa95df3c"
+  },
+  {
+    "title": "Brain scans show motor cortex becomes less specialized in Parkinson's disease",
+    "category": "Research",
+    "summary": "Researchers compared brain scans from 37 people with Parkinson's disease and 37 healthy controls, focusing on how different subregions of the motor cortex connect to the rest of the brain. People with Parkinson's showed unusually strong connections within the motor cortex itself and between the motor cortex and deeper brain structures like the putamen and thalamus, a blurring of normally distinct circuits that correlated with symptoms including tremor and freezing of gait.",
+    "source_name": "NeuroImage: Clinical",
+    "source_url": "https://doi.org/10.1016/j.nicl.2026.104051",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-26",
+    "date_added": "2026-08-31",
+    "status": "active",
+    "id": "a691c28e7b586a6a18cfb8482d340821ff8965de"
+  },
+  {
+    "title": "Analysis of brain tissue points to sex-specific patterns in Parkinson's-related gene activity",
+    "category": "Research",
+    "summary": "A meta-analysis combining single-cell data from postmortem brain tissue of 66 people examined \"jumping genes\" (transposable elements), a normally dormant part of the genome, in the brain region most affected by Parkinson's disease. The analysis found these elements become abnormally active in Parkinson's, with distinct patterns in specific brain cell types between men and women, and the researchers released a public database of the results for other scientists to explore. The findings are early-stage and don't yet point to a treatment, but add to evidence that Parkinson's biology may differ by sex.",
+    "source_name": "Neurobiology of Disease",
+    "source_url": "https://doi.org/10.1016/j.nbd.2026.107580",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-30",
+    "date_added": "2026-08-31",
+    "status": "active",
+    "id": "2a46497eed7429583b0389d05534e91607ef0734"
   }
 ]
