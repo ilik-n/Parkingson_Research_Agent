@@ -118,5 +118,41 @@
     "date_added": "2026-08-23",
     "status": "active",
     "id": "99b8c63f4554894f4a2ba189a7ed5db88b718f39"
+  },
+  {
+    "title": "EU approves Hopledo, a twice-daily-dosed levodopa capsule, for Parkinson's motor fluctuations",
+    "category": "Treatment",
+    "summary": "The European Commission has approved Hopledo, an oral capsule combining immediate- and extended-release levodopa/carbidopa, for adults with Parkinson's disease whose motor fluctuations aren't well controlled by standard treatment. The approval rests on the Phase 3 RISE-PD trial, which found Hopledo increased \"good on\" time and reduced \"off\" time compared with immediate-release levodopa/carbidopa, while needing an average of three doses a day instead of five. The drug is already sold in the U.S. as Crexont; European availability is expected to begin in October 2026.",
+    "source_name": "Zambon",
+    "source_url": "https://www.biospace.com/press-releases/zambon-announces-european-commission-approval-of-hopledo-for-adults-with-parkinsons-disease-and-moderate-to-severe-motor-fluctuations",
+    "source_type": "press release",
+    "date_published": "2026-08-28",
+    "id": "9da7d4a4e63a15d8aa31b3cdc0df4595ef6b9223",
+    "status": "active",
+    "date_added": "2026-09-07"
+  },
+  {
+    "title": "Meta-analysis: dual-task exercise improves balance in Parkinson's, but not clearly motor function",
+    "category": "Treatment",
+    "summary": "A meta-analysis pooling 24 studies and 1,146 people with Parkinson's disease found that dual-task exercise training, practicing a motor task alongside a cognitive or second motor task, improved dynamic balance, with the biggest gains from moderate-intensity training done about two hours a week for more than four weeks. The same analysis found the training's effects on broader motor function and functional mobility were too small to be clinically meaningful. The authors say training dose, meaning frequency, intensity, and duration, matters more than earlier dual-task studies accounted for.",
+    "source_name": "Annals of Rehabilitation Medicine",
+    "source_url": "https://doi.org/10.5535/arm.260060",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-08-28",
+    "id": "0cedd92f58a5be36d32a925138ef20b6bfa450d4",
+    "status": "active",
+    "date_added": "2026-09-07"
+  },
+  {
+    "title": "Review finds mindfulness meditation eases anxiety in Parkinson's, but motor evidence is thin",
+    "category": "Treatment",
+    "summary": "A systematic review of 14 studies on mindfulness meditation for Parkinson's disease found consistent improvements in anxiety, plus moderate benefits for depression and quality of life. Evidence for motor symptoms, balance, mobility, and cognitive function was mixed or limited, and the review noted that falls, fear of falling, and freezing of gait have rarely been studied even though they matter most for everyday safety. The authors call for better-designed trials that specifically track motor and fall outcomes.",
+    "source_name": "Neuropsychological Rehabilitation",
+    "source_url": "https://doi.org/10.1080/09602011.2026.2725697",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-09-07",
+    "id": "0b993a5dacfe822a03aa9cb699b9f69869544020",
+    "status": "active",
+    "date_added": "2026-09-07"
   }
 ]
