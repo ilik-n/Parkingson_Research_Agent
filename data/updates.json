@@ -154,5 +154,17 @@
     "id": "0b993a5dacfe822a03aa9cb699b9f69869544020",
     "status": "active",
     "date_added": "2026-09-07"
+  },
+  {
+    "title": "FDA approves tavapadon (Juvmo), a once-daily pill for Parkinson's motor symptoms",
+    "category": "Treatment",
+    "summary": "The FDA approved AbbVie's tavapadon (Juvmo) for motor symptoms, as a stand-alone treatment in recently diagnosed patients and as an add-on to levodopa in later disease. It is a dopamine agonist aimed at a narrower set of brain circuits than older drugs. In Phase III trials (TEMPO-1, -2, -3), it improved motor symptoms versus placebo, and add-on use gave about one more hour of good 'on' time daily. Common side effects were nausea, headache and dizziness. Sample sizes were not given in the source.",
+    "source_name": "Michael J. Fox Foundation",
+    "source_url": "https://www.michaeljfox.org/news/fda-approves-tavapadon-parkinsons-motor-symptoms",
+    "source_type": "news report",
+    "date_published": "2026-09-25",
+    "date_added": "2026-09-28",
+    "status": "active",
+    "id": "cc86d9979f0a2c4f45b153dc2d773556b2afcb02"
   }
 ]
