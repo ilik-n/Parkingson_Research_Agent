@@ -154,5 +154,41 @@
     "id": "0b993a5dacfe822a03aa9cb699b9f69869544020",
     "status": "active",
     "date_added": "2026-09-07"
+  },
+  {
+    "title": "FDA approves tavapadon, a once-daily pill for Parkinson's motor symptoms",
+    "category": "Treatment",
+    "summary": "The FDA approved tavapadon (Juvmo, from AbbVie), a once-daily dopamine agonist pill for Parkinson's motor symptoms. In Phase III trials, TEMPO-1 and TEMPO-2 in early disease showed improvement over placebo, and TEMPO-3 in people taking levodopa showed roughly one more hour a day of good 'on' time without dyskinesia. Common side effects were nausea, headache, and dizziness. It is expected to be available by prescription within months, though insurance coverage may take longer.",
+    "source_name": "Michael J. Fox Foundation",
+    "source_url": "https://www.michaeljfox.org/news/fda-approves-tavapadon-parkinsons-motor-symptoms",
+    "source_type": "news report",
+    "date_published": "2026-09-25",
+    "id": "cc86d9979f0a2c4f45b153dc2d773556b2afcb02",
+    "status": "active",
+    "date_added": "2026-10-05"
+  },
+  {
+    "title": "Small trial: arm and hand exercises may reduce tremor and improve grip in Parkinson's",
+    "category": "Treatment",
+    "summary": "In a randomized trial at a single center in Brazil, 25 people with Parkinson's disease did eight weeks of eccentric arm and hand exercises, with or without virtual reality. Both groups had less tremor and stronger grip, and grip gains held at one-month follow-up. Only the virtual reality group improved on fine dexterity tests, but differences between groups were mostly not statistically significant. The researchers say larger trials are needed.",
+    "source_name": "Parkinson's News Today (reporting a Journal of Hand Therapy study)",
+    "source_url": "https://parkinsonsnewstoday.com/news/arm-hand-exercises-ease-tremor-parkinsons-trial/",
+    "source_type": "news report",
+    "date_published": "2026-10-02",
+    "id": "6da5dbe4ed45106e6724694aa5b11e91fe513fc5",
+    "status": "active",
+    "date_added": "2026-10-05"
+  },
+  {
+    "title": "REM sleep behavior disorder linked to more motor and psychiatric problems in Parkinson's",
+    "category": "Research",
+    "summary": "A cross-sectional analysis of 9,195 adults in a U.S. database (884 with Parkinson's, 8,311 controls) found REM sleep behavior disorder in 36.6% of people with Parkinson's versus 16.6% of controls. Those with it had about fivefold higher odds of bradykinesia and hallucinations, plus more difficulty with everyday tasks like managing bills. Because the design is cross-sectional it cannot show causation, and the authors call for longitudinal confirmation.",
+    "source_name": "Parkinson's News Today (reporting an npj Parkinson's Disease study)",
+    "source_url": "https://parkinsonsnewstoday.com/news/rbd-tied-broader-motor-psychiatric-problems-parkinsons/",
+    "source_type": "news report",
+    "date_published": "2026-10-05",
+    "id": "196a3d1b4d030d17451e5d296ffcb8d71e52c1b8",
+    "status": "active",
+    "date_added": "2026-10-05"
   }
 ]
