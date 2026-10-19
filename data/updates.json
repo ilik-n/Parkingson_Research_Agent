@@ -154,5 +154,41 @@
     "id": "0b993a5dacfe822a03aa9cb699b9f69869544020",
     "status": "active",
     "date_added": "2026-09-07"
+  },
+  {
+    "title": "FDA approves tavapadon, a once-daily pill, for Parkinson's motor symptoms",
+    "category": "Treatment",
+    "summary": "The FDA has approved AbbVie's tavapadon (brand name Juvmo), a once-daily dopamine agonist for Parkinson's motor symptoms, to be used alone or alongside levodopa. Approval is based on the Phase III TEMPO program: in two trials of early-stage patients it improved motor symptoms and daily activities versus placebo, and in a third trial it added about one hour of daily \"on\" time for people already taking levodopa. Common side effects were nausea, headache, and dizziness; the source does not give trial sample sizes.",
+    "source_name": "Michael J. Fox Foundation",
+    "source_url": "https://www.michaeljfox.org/news/fda-approves-tavapadon-parkinsons-motor-symptoms",
+    "source_type": "news report",
+    "date_published": "2026-09-25",
+    "date_added": "2026-10-19",
+    "status": "active",
+    "id": "cc86d9979f0a2c4f45b153dc2d773556b2afcb02"
+  },
+  {
+    "title": "Once-daily solengepras shortens \"off\" time in Phase 3 trial, company reports",
+    "category": "Clinical Trial",
+    "summary": "Cerevance reported topline results from ARISE, a Phase 3 trial of 341 people with Parkinson's motor fluctuations taking solengepras, a once-daily non-dopaminergic pill, added to their usual medications. At 150 mg, daily \"off\" time fell by about 37 minutes more than with placebo at Week 12, meeting the main goal. These are sponsor-announced results that have not been peer reviewed, and the company plans to discuss next steps with the FDA.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/treatment-may-reduce-parkinsons-off-time-phase-3-trial-finds/",
+    "source_type": "press release",
+    "date_published": "2026-10-13",
+    "date_added": "2026-10-19",
+    "status": "active",
+    "id": "d2d6fffbcbb3990d5836a39ca9a08d9c37386168"
+  },
+  {
+    "title": "Small pilot study: short nutrition course tied to better quality of life in Parkinson's",
+    "category": "Research",
+    "summary": "In a pilot study of 30 people with Parkinson's in Turkey, a short nutrition education program was followed by moderate improvements in physical and mental quality of life after four weeks. There was no comparison group, so the researchers could not confirm the program caused the gains. Participants' protein and calorie intake also dropped, which the authors said could pose nutritional risks if sustained, especially for older adults.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/short-nutrition-course-improve-life-parkinsons-patients/",
+    "source_type": "news report",
+    "date_published": "2026-10-15",
+    "date_added": "2026-10-19",
+    "status": "active",
+    "id": "517b8667e1767e8241977a79d840c3142e7a619a"
   }
 ]
