@@ -154,5 +154,53 @@
     "id": "0b993a5dacfe822a03aa9cb699b9f69869544020",
     "status": "active",
     "date_added": "2026-09-07"
+  },
+  {
+    "title": "FDA approves tavapadon, a once-daily pill for Parkinson's motor symptoms",
+    "category": "Treatment",
+    "summary": "The FDA approved tavapadon (Juvmo, AbbVie), a once-daily dopamine agonist for Parkinson's motor symptoms, based on the Phase III TEMPO program. Compared with placebo, it improved motor symptoms in early disease and added about one hour of daily 'on' time when used with levodopa. Common side effects were nausea, headache and dizziness. It has not been compared directly with other dopamine agonists, and longer-term safety data are still being gathered.",
+    "source_name": "Michael J. Fox Foundation research news",
+    "source_url": "https://www.michaeljfox.org/news/fda-approves-tavapadon-parkinsons-motor-symptoms",
+    "source_type": "news report",
+    "date_published": "2026-09-25",
+    "id": "cc86d9979f0a2c4f45b153dc2d773556b2afcb02",
+    "status": "active",
+    "date_added": "2026-11-16"
+  },
+  {
+    "title": "Phase 2 trial tests oral pill for Parkinson's tremor that persists despite treatment",
+    "category": "Clinical Trial",
+    "summary": "A Phase 2, placebo-controlled trial (Vista PD, NCT07804615) is testing VIM0423, a once-daily pill targeting muscarinic receptors, for Parkinson's tremor. It plans to enroll about 80 adults and is funded in part by the Michael J. Fox Foundation. Enrollment is ongoing, and no efficacy results exist yet; first data are expected in the second half of 2027.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/trial-now-testing-whether-oral-parkinsons-med-stops-continuing-tremor/",
+    "source_type": "news report",
+    "date_published": "2026-11-10",
+    "id": "4bd7cee9973b60d559ff79fdec2e91958d50eb01",
+    "status": "active",
+    "date_added": "2026-11-16"
+  },
+  {
+    "title": "Small study tests a new sleep scoring method for advanced Parkinson's",
+    "category": "Research",
+    "summary": "A small feasibility study in Sleep Medicine tested a sleep scoring method that adds stages standard criteria miss. It included 15 people with Parkinson's and 5 healthy controls. Unusual sleep stages appeared in 12 of the 15 patients and in none of the controls. Scorer agreement dropped for people over 75 or with dementia, so the results are preliminary and need larger studies.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/new-scoring-system-captures-hidden-sleep-issues-parkinsons/",
+    "source_type": "news report",
+    "date_published": "2026-11-09",
+    "id": "52cdfe6cea58051308ef2991f9864899a5b16064",
+    "status": "active",
+    "date_added": "2026-11-16"
+  },
+  {
+    "title": "Study in Kerala, India finds gut bacteria differences in people with Parkinson's",
+    "category": "Research",
+    "summary": "A study in npj Parkinson's Disease compared stool samples from 65 adults with Parkinson's and 65 healthy adults in Kerala, India. Patients had different bacterial richness and abundance, and some bacterial groups tracked with symptom severity or levodopa dose. The study shows association only, cannot say whether gut changes cause Parkinson's, and may not apply to other populations.",
+    "source_name": "Parkinson's News Today",
+    "source_url": "https://parkinsonsnewstoday.com/news/study-india-links-gut-bacteria-differences-parkinsons-disease/",
+    "source_type": "news report",
+    "date_published": "2026-11-03",
+    "id": "aa3f5be8033150e1661ffcca885c5f3f887a9006",
+    "status": "active",
+    "date_added": "2026-11-16"
   }
 ]
