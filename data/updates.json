@@ -154,5 +154,41 @@
     "id": "0b993a5dacfe822a03aa9cb699b9f69869544020",
     "status": "active",
     "date_added": "2026-09-07"
+  },
+  {
+    "title": "Phase 3 buntanetap trial misses motor goal; cognition signal needs follow-up",
+    "category": "Clinical Trial",
+    "summary": "A Phase 3 placebo-controlled trial of buntanetap (10 mg or 20 mg daily) in 523 people with early Parkinson's found no motor benefit over placebo after six months. Exploratory and post hoc analyses hinted at better cognition in people with cognitive impairment at baseline, but the main cognition comparison was not statistically significant. The sponsor co-authored the paper, and the authors say larger trials are needed.",
+    "source_name": "npj Dementia",
+    "source_url": "https://www.nature.com/articles/s44400-026-00148-x",
+    "source_type": "peer-reviewed",
+    "date_published": "2026-11-23",
+    "date_added": "2026-11-24",
+    "status": "active",
+    "id": "37cf515d5431de8570137f11b9c05928171abcc0"
+  },
+  {
+    "title": "EU-funded Phase 2 trial planned for HER-096 in newly diagnosed Parkinson's",
+    "category": "Clinical Trial",
+    "summary": "The Horizon Europe-funded HERMOD project will support a Phase 2 trial of HER-096, an injected experimental compound derived from CDNF, in about 100 people with newly diagnosed Parkinson's. Participants will receive the drug or placebo for 36 weeks, then all receive the drug for 24 weeks. The first participant is expected in the first half of 2027, pending financing and approvals. This is a company announcement, not trial results.",
+    "source_name": "Herantis Pharma via GlobeNewswire",
+    "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3400594/0/en/horizon-europe-funded-hermod-project-launches-to-support-phase-2-development-of-her-096-in-parkinson-s-disease.html",
+    "source_type": "press release",
+    "date_published": "2026-11-11",
+    "date_added": "2026-11-24",
+    "status": "active",
+    "id": "22ac0317b9bf5e7f1a4ad93fa8c2355b24ca2c43"
+  },
+  {
+    "title": "First patient dosed in Phase 2 trial of oral drug for Parkinson's tremor",
+    "category": "Clinical Trial",
+    "summary": "Vima Therapeutics announced the first participant has been dosed in Vista PD, a Phase 2 randomized, placebo-controlled trial of VIM0423, a once-daily oral drug, for tremor that persists despite standard dopaminergic therapy. About 80 adults are expected to take part, and initial data are expected in the second half of 2027. This is a company announcement; no efficacy results are available yet.",
+    "source_name": "Vima Therapeutics via GlobeNewswire",
+    "source_url": "https://www.globenewswire.com/news-release/2026/11/05/3396243/0/en/vima-therapeutics-announces-first-patient-dosed-in-phase-2-clinical-trial-for-parkinson-s-disease-tremor-insufficiently-responsive-to-dopaminergic-therapy.html",
+    "source_type": "press release",
+    "date_published": "2026-11-05",
+    "date_added": "2026-11-24",
+    "status": "active",
+    "id": "601fbbee6aa63db75bc9e66716f1f21afc8b5faf"
   }
 ]
